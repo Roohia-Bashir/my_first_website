@@ -1,0 +1,226 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Raleway", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.447);
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+}
+
+main {
+    padding-top: 150rem;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+#namelogo {
+    border: white;
+    color: black; 
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+} 
+
+.btn2 {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0); 
+    font-size: 35px;
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+.abt_me {
+    padding: 5px; 
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+.abt {
+    background-color: rgb(235, 242, 242);
+    color: rgb(0, 0, 0);
+    width: 900px;
+    height: 100vh;
+    padding: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+ }
+
+.aboutDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#abt_description{
+    display: flex;
+}
+
+#border1{
+    margin-top: 30px;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: rgba(210, 214, 214, 0.753);
+    box-shadow: 0 0 5px rgba(116, 116, 116, 0.447);
+}
+
+.heading{
+    height: auto;
+    font-size:medium;
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.671);
+}
+
+td{
+    text-align: center;
+    border-color: transparent;
+    box-shadow: 0 0 5px rgba(172, 166, 166, 0.447);
+}
+
+#contactme{
+    margin-bottom: 10px;
+}
+
+#linkedIn, #GitHub, #npm{
+    color: blue;
+}
+
+#imgrepolink{
+    color: blue;
+}
+
+#img1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 500px;
+    border-radius: 2px;
+}
+
+
+#img2{
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    width: 100%;
+    height: 200px;
+    border: transparent;
+    border-radius: 2px;
+}
+
+.footer {
+    background-color: #a9adb0; /* Light gray background color */
+    padding: 30px 0; /* Vertical padding */
+    text-align: center; /* Centered text */
+    color: #343a40; /* Darker text color for better readability */
+    border-top: 1px solid #dee2e6; /* Subtle border at the top */
+    width: 100%; /* Full width */
+}
+
+.footer-container {
+    max-width: 1200px; /* Limit the width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.footer p {
+    margin: 10px 0; /* Vertical margin */
+    font-size: 16px; /* Font size */
+}
+
+.social-links {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center links */
+    margin: 10px 0; /* Margin above the links */
+}
+
+.social-links li {
+    margin: 0 15px; /* Space between links */
+}
+
+.social-links a {
+    text-decoration: none; /* Remove underline */
+    color: #18191a; /* Bootstrap's primary link color */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.social-links a:hover {
+    color: #252626; /* Darker shade on hover */
+}
+
