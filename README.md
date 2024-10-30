@@ -1,7 +1,4 @@
-
-Sure! Here’s a simple README file content you can use for your first website:
-
-#My First Website
+##My First Website
 Overview
 This is my first website, created using HTML, CSS, and JavaScript. The purpose of this website is to [insert your purpose here, like "showcase my skills," "share information," or "display my projects"].
 
