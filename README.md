@@ -18,7 +18,7 @@ JavaScript: For interactivity
 #Installation
 Clone this repository:
 #Copy code
-git clone [repository-url]
+git clone [https://github.com/Roohia-Bashir/my_first_website.git]
 Open the index.html file in your browser.
 
 #License
